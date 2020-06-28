@@ -1,0 +1,315 @@
+{
+  "name": "Red Alert",
+  "features": ["icon", "factions", "buildings", "defences", "support_powers"],
+  "factions": {
+    "random": {
+      "id": "random",
+      "name": "Random"
+    },
+    "allies": {
+      "id": "allies",
+      "name": "Allies"
+    },
+    "randomallies": {
+      "id": "randomallies",
+      "name": "Random Allies"
+    },
+    "england": {
+      "id": "england",
+      "name": "England"
+    },
+    "france": {
+      "id": "france",
+      "name": "France"
+    },
+    "germany": {
+      "id": "germany",
+      "name": "Germany"
+    },
+    "soviet": {
+      "id": "soviet",
+      "name": "Soviet"
+    },
+    "randomsoviet": {
+      "id": "randomsoviet",
+      "name": "Random Soviet"
+    },
+    "russia": {
+      "id": "russia",
+      "name": "Russia"
+    },
+    "ukraine": {
+      "id": "ukraine",
+      "name": "Ukraine"
+    }
+  },
+  "actors": {
+    "fact": {
+      "id": "fact",
+      "type": "mcv",
+      "name": "Construction Yard"
+    },
+    "powr": {
+      "id": "powr",
+      "type": "building",
+      "name": "Power Plant"
+    },
+    "apwr": {
+      "id": "apwr",
+      "type": "building",
+      "name": "Advanced Power Plant"
+    },
+    "proc": {
+      "id": "proc",
+      "type": "building",
+      "name": "Ore Refinery"
+    },
+    "barr": {
+      "id": "barr",
+      "type": "building",
+      "name": "Soviet Barracks"
+    },
+    "kenn": {
+      "id": "kenn",
+      "type": "building",
+      "name": "Kennel"
+    },
+    "tent": {
+      "id": "tent",
+      "type": "building",
+      "name": "Allied Barracks"
+    },
+    "spen": {
+      "id": "spen",
+      "type": "building",
+      "name": "Sub Pen"
+    },
+    "syrd": {
+      "id": "syrd",
+      "type": "building",
+      "name": "Ship Yard"
+    },
+    "fix": {
+      "id": "fix",
+      "type": "building",
+      "name": "Service Depot"
+    },
+    "weap": {
+      "id": "weap",
+      "type": "building",
+      "name": "War Factory"
+    },
+    "dome": {
+      "id": "dome",
+      "type": "building",
+      "name": "Radar Dome"
+    },
+    "hpad": {
+      "id": "hpad",
+      "type": "building",
+      "name": "Helipad"
+    },
+    "afld": {
+      "id": "afld",
+      "type": "building",
+      "name": "Airfield"
+    },
+    "afld.ukraine": {
+      "id": "afld.ukraine",
+      "type": "building",
+      "name": "Airfield (Ukraine)"
+    },
+    "atek": {
+      "id": "atek",
+      "type": "building",
+      "name": "Allied Tech Center"
+    },
+    "stek": {
+      "id": "stek",
+      "type": "building",
+      "name": "Soviet Tech Center"
+    },
+    "silo": {
+      "id": "silo",
+      "type": "defence",
+      "name": "Silo"
+    },
+    "sbag": {
+      "id": "sbag",
+      "type": "defence",
+      "name": "Sandbag Wall"
+    },
+    "fenc": {
+      "id": "fenc",
+      "type": "defence",
+      "name": "Wire Fence"
+    },
+    "brik": {
+      "id": "brik",
+      "type": "defence",
+      "name": "Concrete Wall"
+    },
+    "cycl": {
+      "id": "cycl",
+      "type": "defence",
+      "name": "Chain-Link Barrier"
+    },
+    "barb": {
+      "id": "barb",
+      "type": "defence",
+      "name": "Barbed-Wire Fence"
+    },
+    "wood": {
+      "id": "wood",
+      "type": "defence",
+      "name": "Wooden Fence"
+    },
+    "pbox": {
+      "id": "pbox",
+      "type": "defence",
+      "name": "Pillbox"
+    },
+    "hbox": {
+      "id": "hbox",
+      "type": "defence",
+      "name": "Camo Pillbox"
+    },
+    "gun": {
+      "id": "gun",
+      "type": "defence",
+      "name": "Turret"
+    },
+    "agun": {
+      "id": "agun",
+      "type": "defence",
+      "name": "AA Gun"
+    },
+    "gap": {
+      "id": "gap",
+      "type": "defence",
+      "name": "Gap Generator"
+    },
+    "ftur": {
+      "id": "ftur",
+      "type": "defence",
+      "name": "Flame Tower"
+    },
+    "tsla": {
+      "id": "tsla",
+      "type": "defence",
+      "name": "Tesla Coil"
+    },
+    "sam": {
+      "id": "sam",
+      "type": "defence",
+      "name": "SAM Site"
+    },
+    "iron": {
+      "id": "iron",
+      "type": "defence",
+      "name": "Iron Curtain"
+    },
+    "pdox": {
+      "id": "pdox",
+      "type": "defence",
+      "name": "Chronosphere"
+    },
+    "mslo": {
+      "id": "mslo",
+      "type": "defence",
+      "name": "Missile Silo"
+    },
+    "fpwr": {
+      "id": "fpwr",
+      "type": "defence",
+      "name": "Fake Power Plant"
+    },
+    "syrf": {
+      "id": "syrf",
+      "type": "defence",
+      "name": "Fake Naval Yard"
+    },
+    "spef": {
+      "id": "spef",
+      "type": "defence",
+      "name": "Fake Sub Pen"
+    },
+    "weaf": {
+      "id": "weaf",
+      "type": "defence",
+      "name": "Fake War Factory"
+    },
+    "domf": {
+      "id": "domf",
+      "type": "defence",
+      "name": "Fake Radar Dome"
+    },
+    "fixf": {
+      "id": "fixf",
+      "type": "defence",
+      "name": "Fake Service Depot"
+    },
+    "fapw": {
+      "id": "fapw",
+      "type": "defence",
+      "name": "Fake Advanced Power Plant"
+    },
+    "atef": {
+      "id": "atef",
+      "type": "defence",
+      "name": "Fake Allied Tech Center"
+    },
+    "pdof": {
+      "id": "pdof",
+      "type": "defence",
+      "name": "Fake Chronosphere"
+    },
+    "mslf": {
+      "id": "mslf",
+      "type": "defence",
+      "name": "Fake Missile Silo"
+    },
+    "facf": {
+      "id": "facf",
+      "type": "defence",
+      "name": "Fake Construction Yard"
+    }
+  },
+  "support_powers" : {
+    "iron_curtain": {
+      "id": "iron_curtain",
+      "type": "support_power",
+      "name": "Iron Curtain"
+    },
+    "chronoshift": {
+      "id": "chronoshift",
+      "type": "support_power",
+      "name": "Chronoshift"
+    },
+    "parabombs": {
+      "id": "parabombs",
+      "type": "support_power",
+      "name": "Parabombs"
+    },
+    "paratroopers": {
+      "id": "paratroopers",
+      "type": "support_power",
+      "name": "Paratroopers"
+    },
+    "spy_plane": {
+      "id": "spy_plane",
+      "type": "support_power",
+      "name": "Spy Plane"
+    },
+    "nuke": {
+      "id": "nuke",
+      "type": "support_power",
+      "name": "Atom Bomb"
+    },
+    "sonarpulse": {
+      "id": "sonarpulse",
+      "type": "support_power",
+      "name": "Sonar Pulse"
+    }
+  }
+}
